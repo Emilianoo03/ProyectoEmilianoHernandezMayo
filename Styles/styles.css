@@ -9,13 +9,6 @@ body{
     font-family: 'Girassol', cursive;
     font-size: 16px;
 }
- /*
- 
- font-family: 'Girassol', cursive;
-font-family: 'Pattaya', sans-serif;
-font-family: 'Teko', sans-serif;
- */
-
 .decoration{
     list-style: none;
 }
@@ -24,6 +17,7 @@ font-family: 'Teko', sans-serif;
 }
 
 header{
+    
     background: -webkit-linear-gradient(to right, hsla(0, 0%, 100%, 0.842), hsl(196, 93%, 70%, 0.5), hsla(204, 64%, 44%, 0.5)),url('../Imagenes/fondo.jpg')  no-repeat  center; 
     background: linear-gradient(to right, hsla(0, 0%, 100%, 0.767), hsl(196, 93%, 70%, 0.5), hsla(204, 64%, 44%, 0.637)),url('../Imagenes/fondo.jpg') no-repeat  center; 
     background-size: cover;
@@ -31,8 +25,8 @@ header{
 }
     
     .header-container{
-        gap: 5rem;
-        padding: 4rem;
+        gap: 1em;
+        padding: 3em;
         display: grid;
         grid-template-columns:1fr 1fr ;
         grid-template-rows: 20% auto;
@@ -63,7 +57,7 @@ header{
     nav ul{
         display: flex;
         flex-wrap: wrap;
-        gap: 3rem;
+        gap: 3em;
     }
     
     nav ul li a{
@@ -92,9 +86,16 @@ header{
         align-items: center;
         flex-wrap: wrap;
     }
-    .titulo{
+     .contect h1{
         font-size: 5vh;
+    } 
+    .contect h4{
+        font-size: 4vh;
+    } 
+    .contect h5{
+        font-size: 3vh;
     }
+    
     
     /*wave*/
     
@@ -105,8 +106,6 @@ header{
     }
     /*wave*/
     /*Header nav*/
-
-
 
     /*MAIN*/
 
@@ -131,7 +130,7 @@ main{
     "footer footer footer";
     height: auto;
 }
-/*MAIN*/
+
 
 /*ABOUT*/
 .about-me{
@@ -154,7 +153,9 @@ main{
 .about-me ul{
     text-align: center;
 }
-
+.about-me h3{
+    margin-top: 20px;
+}
 .about-me ul{
     margin-bottom: 30px;
 }
@@ -186,10 +187,10 @@ main{
 .transition{
     
 }
-/*
-data-aos="fade-right" data-aos-delay="200"
-*/
 /*TECNOLOGIAS*/
+
+/*MAIN*/
+
 
 /*Footer*/
 .footer-container{
@@ -225,8 +226,8 @@ data-aos="fade-right" data-aos-delay="200"
     flex-wrap: wrap;
 }
 .contacts img{
-    height: 2em;
-    width: 2em;
+    height: 1.5em;
+    width: 1.5em;
    margin: 1em;
 }
 #copy{
@@ -234,47 +235,15 @@ data-aos="fade-right" data-aos-delay="200"
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-}
-/*Footer*/
-/*
-.f-container{
-
-
-.f-logo{
- grid-area: logo;
-    height: 7em;
-    width: 5em;
-    display: grid;
-    justify-content: center;
-    align-items: center;
+    margin: 1em;
 }
 
-.f-text{
-    grid-area: contenido;
-    color: white;
-    display: grid;
-    justify-content: center;
+.easter-egg{
+    cursor: wait;
+    background: transparent;
+    border: transparent;
+    z-index: 999;
+    height: 25px;
+    width: 25px;
+    margin-left:-100px;
 }
-
-
-
-
-
-
-.f-contacts{
-    grid-area: contact;
-    color: white;
-    display: grid;
-    justify-content: center;
-      
-}
-
-.f-contacts img{
-    height: 2rem;
-    width: 2rem;
-   margin: 1em;
-}
-
-
-*/
-

@@ -23,21 +23,16 @@ header{
     background-size: cover;
    position: relative;
 }
-    
-    .header-container{
-        gap: 1em;
-        padding: 3em;
-        display: grid;
-        grid-template-columns:1fr 1fr ;
-        grid-template-rows: 20% auto;
-        grid-template-areas: 
-        "logo naveg"
-        "contenido contenido";
-        height: 100vh;
-    }
+ .header-container{
+     gap: 1em;padding: 3em; 
+     display: grid; 
+     grid-template-columns:1fr 1fr ; 
+     grid-template-rows: 20% auto;  
+     grid-template-areas:   "logo naveg"  "contenido contenido";
+    height: 100vh; }
     
     /*Header Logo*/
-    .logo-container{
+ .logo-container{
         grid-area: logo;
     }
     
